@@ -78,9 +78,7 @@ F1 Score: ~95%
 Key Features: Contract Length, Subscription Type, Gender, Tenure, etc.
 
 📁 Folder Structure
-bash
-Copy
-Edit
+
 Telecom-CustomerChurn-Prediction/
 ├── CustomerChurn.ipynb         # Main notebook
 ├── requirements.txt            # Required libraries
@@ -102,16 +100,10 @@ Explains each prediction using SHAP waterfall plot
 Displays top features increasing/decreasing churn probability
 
 🛠 How to Run the App Locally
-1. Clone the repository
-bash
-Copy
-Edit
+1. Clone the repository 
 git clone https://github.com/your-username/Telecom-CustomerChurn-Prediction.git
 cd Telecom-CustomerChurn-Prediction
 2. Install the dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 3. Ensure the model file (model.pkl) is present
 This file should contain a trained pipeline with:
@@ -121,14 +113,8 @@ This file should contain a trained pipeline with:
 'model': the trained XGBoost model
 
 4. Run the Streamlit app
-bash
-Copy
-Edit
 streamlit run app.py
 📦 Example requirements.txt
-nginx
-Copy
-Edit
 streamlit
 pandas
 shap
@@ -146,11 +132,8 @@ Using Optuna for scalable hyperparameter tuning
 Streamlit deployment with proper preprocessing integration
 
 📎 To Run the Jupyter Notebook
-Open the notebook:
+Open the notebook (recommended-google colab):
 
-bash
-Copy
-Edit
 jupyter notebook CustomerChurn.ipynb
 📬 Connect With Me
 📧 Email: Rajjeswal30@gmail.com@example.com
