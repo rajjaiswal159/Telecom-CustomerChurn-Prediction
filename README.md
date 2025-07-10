@@ -17,7 +17,7 @@ Features: 11 (including categorical and numerical features)
 
 Target Variable: Churn (Yes/No)
 
-🔧 Technologies Used
+🔧 Technologies Used:
 Python
 
 Libraries: pandas, NumPy, Scikit-learn, XGBoost, LightGBM, Random Forest, Optuna
