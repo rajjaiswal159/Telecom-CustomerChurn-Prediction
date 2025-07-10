@@ -1,119 +1,159 @@
-# 📉 Telecom Customer Churn Prediction
-
+📉 Telecom Customer Churn Prediction
 An end-to-end machine learning project to predict customer churn in the telecom industry. This project helps identify users likely to cancel their subscription so that retention strategies can be applied proactively.
 
-
-## 🚀 Project Objective
-
+🚀 Project Objective
 To build a robust and interpretable churn prediction model using supervised learning algorithms that can:
 
-- Detect customers likely to churn.
-- Help reduce customer loss.
-- Provide actionable business insights.
+Detect customers likely to churn
 
+Help reduce customer loss
 
-## 🧾 Dataset Overview
+Provide actionable business insights
 
-- **Records:** 500,000+
-- **Features:** 11 (including categorical and numerical features)
-- **Target Variable:** `Churn` (Yes/No)
+🧾 Dataset Overview
+Records: 500,000+
 
+Features: 11 (including categorical and numerical features)
 
-## 🔧 Technologies Used
+Target Variable: Churn (Yes/No)
 
-- Python
-- pandas, NumPy
-- Scikit-learn
-- XGBoost, LightGBM, Random Forest
-- Optuna (for hyperparameter tuning)
-- Matplotlib, Seaborn (for visualization)
-- Google Colab (for development)
+🔧 Technologies Used
+Python
 
+Libraries: pandas, NumPy, Scikit-learn, XGBoost, LightGBM, Random Forest, Optuna
 
-## 📊 Workflow
+Visualization: Matplotlib, Seaborn
 
-### 1. **Exploratory Data Analysis (EDA)**
-- Univariate and bivariate analysis
-- Churn rate distribution
-- Correlation between features
+Platform: Google Colab (for development), Streamlit (for deployment)
 
-### 2. **Data Preprocessing**
-- Handling missing values
-- Encoding categorical features using:
-  - `OneHotEncoder` for nominal
-  - `OrdinalEncoder` for ordinal
-- Created pipelines using `ColumnTransformer`
+📊 Workflow
+1. Exploratory Data Analysis (EDA)
+Univariate and bivariate analysis
 
-### 3. **Model Building**
-- Baseline model
-  - XGBClassifier
-  - RandomForestClassifier
-  - LGBMClassifier
-- Performance metrics:
-  - Classification Report
-  - Confusion Matrix
-  - F1 Score
+Churn rate distribution
 
-### 4. **Hyperparameter Tuning**
-- Used **Optuna** for:
-  - Efficient and scalable tuning
-  - Parallel trials
-- Trained final models with best hyperparameters
+Correlation between features
 
-### 5. **Feature Importance**
-- Visualized top features contributing to churn
-- Explained model interpretability using built-in `.feature_importances_`
+2. Data Preprocessing
+Handled missing values
 
+Encoded categorical features using:
 
-## 🏆 Results
+OneHotEncoder for nominal features
 
-- **Best Model:** XGBClassifier (with Optuna tuning)
-- **F1 Score:** ~95%
-- **Key Features:** Contract length, subscription type, gender, etc.
+OrdinalEncoder for ordinal features
 
+Built pipelines with ColumnTransformer
 
-## 📁 Folder Structure
+3. Model Building
+Tried baseline models:
 
-📂 Telecom-CustomerChurn-Prediction/ ├── CustomerChurn.ipynb       # Main notebook ├── requirements.txt          # Required libraries ├── README.md                 # Project documentation ├── data/                     # (Optional) Dataset if permitted └── visuals/                  # Confusion matrix, feature importance, etc.
+XGBClassifier, RandomForestClassifier, LGBMClassifier
 
----
+Evaluated using:
 
-## 📌 Key Learnings
+Classification Report
 
-- How to structure a real-world machine learning workflow
-- Efficient hyperparameter tuning using Optuna
-- Importance of preprocessing pipelines for production-readiness
-- Model comparison and selection using evaluation metrics
+Confusion Matrix
 
----
+F1 Score
 
-## 📎 To Run the Project
+4. Hyperparameter Tuning
+Used Optuna for efficient tuning:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/Telecom-CustomerChurn-Prediction.git
+Pruning
 
-2. Install dependencies:
+Parallel trials
 
+5. Feature Importance & Interpretability
+Used .feature_importances_ for model explanation
+
+Used SHAP values for local explanations
+
+🏆 Results
+Best Model: XGBClassifier (with Optuna tuning)
+
+F1 Score: ~95%
+
+Key Features: Contract Length, Subscription Type, Gender, Tenure, etc.
+
+📁 Folder Structure
+bash
+Copy
+Edit
+Telecom-CustomerChurn-Prediction/
+├── CustomerChurn.ipynb         # Main notebook
+├── requirements.txt            # Required libraries
+├── app.py                      # Streamlit app code
+├── model.pkl                   # Trained pipeline (preprocessor + model)
+├── README.md                   # Project documentation
+├── data/                       # (Optional) Dataset
+└── visuals/                    # SHAP plots, confusion matrix, etc.
+🌐 Streamlit Web App
+An interactive Streamlit UI was built to allow real-time churn predictions and SHAP-based explanations.
+
+✅ Features:
+User inputs customer data
+
+Predicts churn using a trained XGBoost model
+
+Explains each prediction using SHAP waterfall plot
+
+Displays top features increasing/decreasing churn probability
+
+🛠 How to Run the App Locally
+1. Clone the repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/Telecom-CustomerChurn-Prediction.git
+cd Telecom-CustomerChurn-Prediction
+2. Install the dependencies
+bash
+Copy
+Edit
 pip install -r requirements.txt
+3. Ensure the model file (model.pkl) is present
+This file should contain a trained pipeline with:
 
+'preprocessor': a preprocessing step (e.g., ColumnTransformer)
 
-3. Open and run the notebook:
+'model': the trained XGBoost model
 
+4. Run the Streamlit app
+bash
+Copy
+Edit
+streamlit run app.py
+📦 Example requirements.txt
+nginx
+Copy
+Edit
+streamlit
+pandas
+shap
+matplotlib
+joblib
+scikit-learn
+xgboost
+📌 Key Learnings
+Real-world ML pipeline building and deployment
+
+SHAP for model transparency and explanation
+
+Using Optuna for scalable hyperparameter tuning
+
+Streamlit deployment with proper preprocessing integration
+
+📎 To Run the Jupyter Notebook
+Open the notebook:
+
+bash
+Copy
+Edit
 jupyter notebook CustomerChurn.ipynb
-
-
-
-
----
-
 📬 Connect With Me
-
 📧 Email: Rajjeswal30@gmail.com@example.com
-
-🔗 LinkedIn: https://www.linkedin.com/in/raj-jaiswal-45604330a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-
-
-
+🔗 LinkedIn: Raj Jaiswal
 
 ⭐ If you like this project, feel free to star it!
