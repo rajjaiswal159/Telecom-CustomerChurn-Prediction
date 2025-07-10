@@ -34,7 +34,7 @@ Churn rate distribution
 
 Correlation between features
 
-2. Data Preprocessing
+2. Data Preprocessing:
 Handled missing values
 
 Encoded categorical features using:
@@ -61,11 +61,9 @@ F1 Score
 4. Hyperparameter Tuning
 Used Optuna for efficient tuning:
 
-Pruning
-
 Parallel trials
 
-5. Feature Importance & Interpretability
+6. Feature Importance & Interpretability
 Used .feature_importances_ for model explanation
 
 Used SHAP values for local explanations
@@ -91,7 +89,7 @@ Telecom-CustomerChurn-Prediction/
 An interactive Streamlit UI was built to allow real-time churn predictions and SHAP-based explanations.
 
 ✅ Features:
-User inputs customer data
+User inputs: customer data
 
 Predicts churn using a trained XGBoost model
 
