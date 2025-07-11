@@ -59,9 +59,7 @@ Confusion Matrix
 F1 Score
 
 4. Hyperparameter Tuning
-Used: Optuna for efficient tuning:
-
-Parallel trials
+Used: Optuna for efficient tuning
 
 6. Feature Importance & Interpretability
 Used .feature_importances_ for model explanation
