@@ -83,21 +83,20 @@ To ensure **trust and transparency**, we used:
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/customer-churn-xai.git
-cd customer-churn-xai
+git clone https://github.com/rajjaiswal/Telecom-CustomerChurn-Prediction.git
+cd Telecom-CustomerChurn-Prediction.git
 pip install -r requirements.txt
-
+```
 
 ▶️ How to Run
-Launch Jupyter Notebook:
-
-bash
-Copy
-Edit
+1. Launch Jupyter Notebook:
+```bash
 jupyter notebook
-Follow the notebooks in order:
+```
 
-01_data_preprocessing.ipynb
+2. Follow the notebooks in order:
+
+(U+2022) 01_data_preprocessing.ipynb
 
 02_model_training.ipynb
 
