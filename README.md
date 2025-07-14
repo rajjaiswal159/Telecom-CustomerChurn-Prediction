@@ -16,11 +16,12 @@ In this project, we:
 
 ## 📁 Project Structure
 
-README.md - for project introduction, installato instructions || 
-requirements.txt - for all requirements || 
-CustomerChurn.ipynb - notebook for model training and evaluation || 
-model.pkl - contained trained model || 
-app.py - contained full system 
+README.md - Project documentation || 
+images/ = Folder containing output plots and SHAP visualizations 
+requirements.txt - List of required Python libraries || 
+CustomerChurn.ipynb - Main notebook containg all visualizations, model training and full ML pipeline  || 
+model.pkl - Contained trained ML model || 
+app.py - Streamlit app with SHAP visualizations
 
 ---
 
@@ -81,16 +82,17 @@ pip install -r requirements.txt
 ▶️ How to Run
 1. Launch Jupyter Notebook:
 ```bash
-jupyter notebook
+jupyter notebook CustomerChurn.ipynb
 ```
 
-2. Follow the notebooks in order:
+2. Open CustomerChurn.ipynb :
 
-   • 01_data_preprocessing.ipynb
+   Run the cells in order to see analysis, model, performance.
 
-   • 02_model_training.ipynb
-
-   • 03_xai_analysis.ipynb
+3. Run Streamlit App:
+   ```bash
+   streamlit run app.py
+   ```
 
 
 🧪 Requirements
