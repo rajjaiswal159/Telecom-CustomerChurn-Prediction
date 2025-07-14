@@ -43,7 +43,7 @@ customer-churn-xai/
 - XGBoost
 - LightGBM
 
-The best-performing model is selected based on evaluation metrics.
+The best-performing model is selected based on cross validation score.
 
 ---
 
