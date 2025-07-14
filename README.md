@@ -77,6 +77,7 @@ cd Telecom-CustomerChurn-Prediction.git
 pip install -r requirements.txt
 ```
 
+
 ▶️ How to Run
 1. Launch Jupyter Notebook:
 ```bash
@@ -91,6 +92,7 @@ jupyter notebook
 
    • 03_xai_analysis.ipynb
 
+
 🧪 Requirements
  • Python 3.8+
 
@@ -102,16 +104,20 @@ jupyter notebook
 
  • shap, lime
 
+
 Install via:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+
 📎 Dataset
 The dataset used is publicly available from the Telco Customer Churn Dataset on Kaggle.
 
+
 📸 Sample SHAP Plot
-![Model Output](model_output.png)
+![Model Output](Images/model_output.png)
 
 📢 Conclusion
 This project demonstrates not only how to predict churn using robust ML techniques but also how to interpret and explain predictions, empowering data-driven and transparent business decisions.
