@@ -16,11 +16,11 @@ In this project, we:
 
 ## 📁 Project Structure
 
-README.md - for project introduction, installato instructions
-requirements.txt - for all requirements
-CustomerChurn.ipynb - notebook for model training and evaluation
-model.pkl - contained trained model
-app.py - contained full system 
+README.md - for project introduction, installato instructions.
+requirements.txt - for all requirements.
+CustomerChurn.ipynb - notebook for model training and evaluation.
+model.pkl - contained trained model.
+app.py - contained full system .
 
 ---
 
