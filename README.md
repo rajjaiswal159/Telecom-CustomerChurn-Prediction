@@ -91,7 +91,9 @@ pip install -r requirements.txt
 ▶️ How to Run
 Launch Jupyter Notebook:
 
-
+bash
+Copy
+Edit
 jupyter notebook
 Follow the notebooks in order:
 
@@ -114,6 +116,9 @@ shap, lime
 
 Install via:
 
+bash
+Copy
+Edit
 pip install -r requirements.txt
 📎 Dataset
 The dataset used is publicly available from the Telco Customer Churn Dataset on Kaggle.
@@ -128,8 +133,3 @@ Made with ❤️ by Raj Jaiswal
 
 📄 License
 This project is licensed under the MIT License.
-
-
----
-
-Let me know if you want a **version with Streamlit or FastAPI**, or if you'd like help **customizing it to your actual GitHub repo or project**.
