@@ -94,15 +94,15 @@ jupyter notebook
 
 
 🧪 Requirements
- • Python 3.8+
+  • Python 3.8+
 
- • pandas, numpy, scikit-learn
+  • pandas, numpy, scikit-learn
 
- • matplotlib, seaborn
+  • matplotlib, seaborn
 
- • xgboost, lightgbm
+  • xgboost, lightgbm
 
- • shap, lime
+  • shap, lime
 
 
 Install via:
@@ -118,7 +118,7 @@ The dataset used is publicly available from the Telco Customer Churn Dataset on 
 
 📸 Sample SHAP Plot
 ![Model Output](Images/model_output.png)
-
+![Model Output](Images/shap_visualixation.png)
 📢 Conclusion
 This project demonstrates not only how to predict churn using robust ML techniques but also how to interpret and explain predictions, empowering data-driven and transparent business decisions.
 
