@@ -16,22 +16,11 @@ In this project, we:
 
 ## 📁 Project Structure
 
-customer-churn-xai/
-├── data/
-│ └── churn_data.csv
-├── notebooks/
-│ ├── 01_data_preprocessing.ipynb
-│ ├── 02_model_training.ipynb
-│ ├── 03_xai_analysis.ipynb
-├── src/
-│ ├── utils.py
-│ ├── model.py
-│ └── explainability.py
-├── results/
-│ └── shap_summary_plot.png
-├── README.md
-└── requirements.txt
-
+README.md - for project introduction, installato instructions
+requirements.txt - for all requirements
+CustomerChurn.ipynb - notebook for model training and evaluation
+model.pkl - contained trained model
+app.py - contained full system 
 
 ---
 
