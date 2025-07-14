@@ -1,6 +1,6 @@
-# 📉 Customer Churn Prediction with Explainable AI (XAI)
+# 📉 Customer Churn Prediction with Explainable AI
 
-Predicting customer churn helps businesses retain valuable users and reduce revenue loss. This project leverages machine learning to predict customer churn and integrates **Explainable AI (XAI)** techniques to interpret the model's decisions.
+Predicting customer churn helps businesses retain valuable users and reduce revenue loss. This project leverages machine learning to predict customer churn and integrates **Explainable AI** techniques to interpret the model's decisions.
 
 ---
 
