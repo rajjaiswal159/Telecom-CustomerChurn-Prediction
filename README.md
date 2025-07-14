@@ -17,7 +17,7 @@ In this project, we:
 ## 📁 Project Structure
 
 README.md - Project documentation || 
-images/ - Folder containing output plots and SHAP visualizations 
+images/ - Folder containing output plots and SHAP visualizations ||
 requirements.txt - List of required Python libraries || 
 CustomerChurn.ipynb - Main notebook containg all visualizations, model training and full ML pipeline  || 
 model.pkl - Contained trained ML model || 
