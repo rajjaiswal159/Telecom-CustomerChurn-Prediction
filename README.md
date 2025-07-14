@@ -118,7 +118,7 @@ pip install -r requirements.txt
 The dataset used is publicly available from the Telco Customer Churn Dataset on Kaggle.
 
 
-📸 Sample SHAP Plot
+📸 Sample Output
 ![Model Output](Images/model_output.png)
 ![Model Output](Images/shap_visualixation.png)
 📢 Conclusion
