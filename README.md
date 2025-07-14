@@ -96,29 +96,28 @@ jupyter notebook
 
 2. Follow the notebooks in order:
 
-(U+2022) 01_data_preprocessing.ipynb
+   • 01_data_preprocessing.ipynb
 
-02_model_training.ipynb
+   • 02_model_training.ipynb
 
-03_xai_analysis.ipynb
+   • 03_xai_analysis.ipynb
 
 🧪 Requirements
-Python 3.8+
+ • Python 3.8+
 
-pandas, numpy, scikit-learn
+ • pandas, numpy, scikit-learn
 
-matplotlib, seaborn
+ • matplotlib, seaborn
 
-xgboost, lightgbm
+ • xgboost, lightgbm
 
-shap, lime
+ • shap, lime
 
 Install via:
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+```
 📎 Dataset
 The dataset used is publicly available from the Telco Customer Churn Dataset on Kaggle.
 
