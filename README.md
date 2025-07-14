@@ -111,6 +111,7 @@ pip install -r requirements.txt
 The dataset used is publicly available from the Telco Customer Churn Dataset on Kaggle.
 
 📸 Sample SHAP Plot
+![Model Output](model_output.png)
 
 📢 Conclusion
 This project demonstrates not only how to predict churn using robust ML techniques but also how to interpret and explain predictions, empowering data-driven and transparent business decisions.
