@@ -4,9 +4,9 @@ An end-to-end machine learning project to predict customer churn in the telecom 
 🚀 Project Objective
 To build a robust and interpretable churn prediction model using supervised or ensemble learning algorithms that can:
 
-    Detect customers likely to churn
+ Detect customers likely to churn
 
-    Help reduce customer loss
+ Help reduce customer loss
 
 Provide actionable business insights
 
