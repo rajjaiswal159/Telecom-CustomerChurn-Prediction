@@ -73,7 +73,7 @@ To ensure **trust and transparency**, we used:
 
 ## 📌 Key Insights
 
-- Tenure, Monthly Charges, and Contract Type were the most influential features.
+- Support calls, Monthly Charges, and Contract Type were the most influential features.
 - Customers with **month-to-month contracts**, **high charges**, and **low tenure** were more likely to churn.
 
 ---
@@ -86,6 +86,8 @@ Clone the repo and install dependencies:
 git clone https://github.com/yourusername/customer-churn-xai.git
 cd customer-churn-xai
 pip install -r requirements.txt
+
+
 ▶️ How to Run
 Launch Jupyter Notebook:
 
