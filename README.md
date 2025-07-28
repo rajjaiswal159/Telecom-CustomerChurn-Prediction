@@ -6,7 +6,7 @@ Predicting customer churn helps businesses retain valuable users and reduce reve
 
 ## 🚀 Overview
 
-In this project, we:
+In this project:
 - Perform end-to-end **data preprocessing**.
 - Train multiple **ML models** for churn prediction.
 - Use **SHAP** (SHapley Additive exPlanations) and **LIME** (Local Interpretable Model-agnostic Explanations) for model explainability.
