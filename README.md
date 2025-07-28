@@ -116,7 +116,7 @@ pip install -r requirements.txt
 
 📎 Dataset
 <br>
-The dataset used is publicly available from the Telco Customer Churn Dataset on Kaggle.
+The dataset used in this project is publicly available from the Telco Customer Churn Dataset on Kaggle.
 
 
 📸 Sample Output
