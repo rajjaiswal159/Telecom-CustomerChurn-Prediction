@@ -126,7 +126,8 @@ The dataset used in this project is publicly available from the Telco Customer C
 This project demonstrates not only how to predict churn using robust ML techniques but also how to interpret and explain predictions, empowering data-driven and transparent business decisions.
 
 🤝 Let's Connect
-Made with ❤️ by Raj Jaiswal
+<br>
+Made by Raj Jaiswal
 
 📄 License
 This project is licensed under the MIT License.
